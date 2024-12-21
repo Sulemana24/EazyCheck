@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+      <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="container">
+        <div class="main-nav">
+          <div class="logo">
+            <h3>EazyCheck</h3>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li>Home</li>
+              <li>About us</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+          <div class="nav-btn">
+          </div>
+          <div class="icon">
+            <i id="bar" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container2">
+    <div class="gpa-container">
+      <h2>Check Your GPA the Fastest Way</h2>
+      <div class="input-field">
+        <input type="text" id="course-input" placeholder="Enter Course Code(Opt.)">
+        <form id="grade-form">
+          <select id="grade">
+            <option value="">--Please select grade--</option>
+            <option value="A">A</option>
+            <option value="B+">B+</option>
+            <option value="B">B</option>
+            <option value="C+">C+</option>
+            <option value="C">C</option>
+            <option value="D+">D+</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+          </select>
+          <select id="credit-hours">
+            <option value="">--Please select credit hours--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <button id="submit" type="submit">Add Course</button>
+        </form>
+      </div>
+      <ul id="course-display">
+      </ul>
+      <div class="check">
+        <button class="check-btn">Calculate GPA</button>
+      </div>
+      <div class="check">
+      <button id="reset" class="reset-btn">Reset</button>
+    </div>
+    </div>
+    <div class="result-container">
+      <div class="results">
+        <p class="gpa">Your GPA: <span></span></p>
+      </div>
+      <div class="class"><p><i>Your Current Class:</i> <span></span></p></div>
+    </div>
+  </div>
+  <section id="about">
+    <h1>About EazyCheck</h1>
+    <p>Our GPA Calculator is designed to simplify academic tracking for students across all departments. With a user-friendly interface, students can effortlessly enter their course titles, select corresponding grades, and input credit hours. The app computes your Grade Point Average (GPA) and determines your academic class, helping you stay informed about your progress. Whether you're evaluating a semester's performance or strategizing for future success, this tool is here to support your academic journey.</p>
+  </section>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <div class="footer-logo">
+                <a href="#" class="logo"><h3>EazyCheck</h3></a>
+            </div>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul class="footer-links">
+            <li>
+                <a href="tel:+233551333780"><span></span><i class="ri-phone-line"></i>
+                    +233 551 333 780</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/maps/search/aamusted+(formerly+uew-kumasi)+sunyani+road+kumasi/@6.6974842,-1.6832542,18z/data=!3m1!4b1!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><span></span><i class="ri-map-pin-line"></i> AAMUSTED-K</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div class="footer-col2">
+            <h4>Menu</h4>
+            <ul class="header-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </div>        
+</footer>
+<div class="footer-bar">
+    <p><i class="ri-copyright-line"></i>  2025 EazyCheck. All rights reserved.</p>
+    <p>Develop by Simdi Dev</p>
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
